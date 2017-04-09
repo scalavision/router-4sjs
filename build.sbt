@@ -29,7 +29,7 @@ lazy val commonSettings = Seq(
   libraryDependencies ++= Seq(
     "com.google.guava" % "guava" % "latest.integration",
     "com.geirsson" %% "scalafmt" % "0.2.10",
-    "org.specs2" %% "specs2-core" % "latest.integration" % "test",
+    "org.specs2" %% "specs2-core" % "3.8.7" % "test",
     "org.scalactic" %% "scalactic" % "3.0.1",
     "org.scalatest" %% "scalatest" % "3.0.1" % "test"
   )
