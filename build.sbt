@@ -4,7 +4,7 @@ lazy val commonSettings = Seq(
   version := "0.1-SNAPSHOT",
   scalacOptions ++= compileOptions.value,
   libraryDependencies ++= Seq(
-    "com.lihaoyi" %%% "sourcecode" % "0.1.2"
+    "com.lihaoyi" %%% "sourcecode" % DefaultDependencies.MetaProgramming.sourceCodeVersion
   )  ++ scalaWebRxDependencies.value 
 ) ++ ScalaJSDefaultsPlugin.scalaJsDefaults
 
